@@ -3,7 +3,9 @@ layout: home
 ---
 
 
-Informatics Student -- UHasselt -- Embedded Software Enthusiast
+# Mathijs Follon
+
+*Informatics Student -- UHasselt -- Embedded Software Enthusiast*
 
 Welcome to my academic portfolio! I'm a student in Informatics at Universiteit Hasselt and currently working as an Intern Embedded Software Developer at **imo-imomec**, where I contribute to the OSCAR project with the software team, developing quantum sensor technologies for space applications.
 
