@@ -11,6 +11,8 @@ github_username: mathijs-follon
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Include _pages directory
 include:
