@@ -1,35 +1,64 @@
-title: "Mathijs Follon Portfolio"
-author: "Mathijs Follon"
-email: "contact@mathijsfollon.be"
-description: "Research, projects, and academic work in Informatics."
+# Site Settings
+title: Mathijs Follon
+email: contact@mathijsfollon.be
+description: >-
+  Portfolio
 baseurl: ""
-url: "https://www.mathijsfollon.be"
-
-# Theme
-theme: "al-folio"
+url: "https://mathijsfollon.be"
+github_username: mathijs-follon
 
 # Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Include _pages directory
+include:
+  - _pages
+
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-# Navigation (optional)
+# Navigation
 nav:
   - title: "Home"
     url: "/"
   - title: "About"
     url: "/about/"
-  - title: "CV"
-    url: "/cv/"
   - title: "Publications"
     url: "/publications/"
   - title: "Projects"
     url: "/projects/"
 
-# Optional social links
+# Social links
 social:
   github: "https://github.com/mathijs-follon"
   linkedin: "https://linkedin.com/in/mathijs-follon-848411271"
 
 # Footer
 footer:
-  content: "© 2026 Mathijs Follon. All rights reserved."
+  content: "Mathijs Follon. All rights reserved."
+
+# Exclude from processing
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .jekyll-cache
+  - .sass-cache
+  - .ruby-version
+  - .rbenv-version
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
