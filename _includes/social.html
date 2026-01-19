@@ -1,0 +1,15 @@
+<p>Feel free to contact me at:</p>
+<ul class="social-media-list">
+  {%- if site.email -%}
+  <li><a href="mailto:{{ site.email }}" title="Email"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#email' | relative_url }}"></use></svg> <span class="username">Email</span></a></li>
+  {%- endif -%}
+  {%- if site.social.github -%}
+  <li><a href="{{ site.social.github | cgi_escape | escape }}" title="GitHub"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">GitHub</span></a></li>
+  {%- elsif site.github.username -%}
+  <li><a href="https://github.com/{{ site.github.username | cgi_escape | escape }}" title="GitHub"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">GitHub</span></a></li>
+  {%- endif -%}
+  {%- if site.social.linkedin -%}
+  <li><a href="{{ site.social.linkedin | cgi_escape | escape }}" title="LinkedIn"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg> <span class="username">LinkedIn</span></a></li>
+  {%- endif -%}
+</ul>
+
