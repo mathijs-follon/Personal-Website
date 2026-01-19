@@ -26,8 +26,6 @@ kramdown:
 
 # Navigation
 nav:
-  - title: "Home"
-    url: "/"
   - title: "About"
     url: "/about/"
   - title: "Publications"
