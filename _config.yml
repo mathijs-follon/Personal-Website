@@ -1,0 +1,35 @@
+title: "Mathijs Follon Portfolio"
+author: "Mathijs Follon"
+email: "contact@mathijsfollon.be"
+description: "Research, projects, and academic work in Informatics."
+baseurl: ""
+url: "https://www.mathijsfollon.be"
+
+# Theme
+theme: "al-folio"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Navigation (optional)
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "CV"
+    url: "/cv/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Projects"
+    url: "/projects/"
+
+# Optional social links
+social:
+  github: "https://github.com/mathijs-follon"
+  linkedin: "https://linkedin.com/in/mathijs-follon-848411271"
+
+# Footer
+footer:
+  content: "© 2026 Mathijs Follon. All rights reserved."
