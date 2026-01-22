@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Biography
 
-Welcome! I'm **Mathijs Follon**, a student in Informatics at UHasselt (Universiteit Hasselt) and currently working as an Intern Embedded Software Developer at imo-imomec. I'm passionate about exploring the frontiers of technology, particularly in embedded systems and software architecture.
+I'm **Mathijs Follon**, a student in Informatics at UHasselt (Universiteit Hasselt) and currently contributing to OSCAR as an Intern Embedded Software Developer at imo-imomec. I'm passionate about exploring the frontiers of technology, particularly in embedded systems and software architecture.
 
 ## Education
 
